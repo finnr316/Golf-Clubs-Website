@@ -10,7 +10,7 @@
       include 'Home.html';
     } 
     else{
-      if ($staffpass == "Fungi123" && $staffemail == "nb18ryanf@edubuzz.org") {
+      if ($staffpass == "your_password" && $staffemail == "your_email@example.com") {
         $_SESSION['staffLogin']="True";
         header('Location: home_logged_in.html');
       }
