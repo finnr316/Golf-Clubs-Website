@@ -1,0 +1,103 @@
+body {
+  width: 1000px;
+  margin: auto;
+  background-image: url('BackLogoWhite.png');
+}
+
+/* header */
+
+header {
+  background-color: #262626;
+  height: 50px;
+  padding-top: 10px;
+  padding-right: 2px;
+}
+
+#logo {
+  height: 50px;
+  width: 90px;
+  padding-left: 5px;
+}
+
+/* banner */
+
+.head1 {
+  height: 60px;
+  text-align: center;
+}
+
+h1 {
+  color: black;
+  padding-top: 20px;
+  margin: 0px;
+
+}
+
+#heading {
+  background-color: whitesmoke;
+  height: 150px;
+}
+
+/* nav */
+
+nav {
+  height: 40px;
+  margin-top: 0px;
+  padding-left: 0px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin-top: 0px;
+  padding-left: 0px;
+}
+
+nav ul li {
+  width: 166.6px;
+  float: left;
+  text-align: center;
+}
+
+nav ul li a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  color: black;
+  background-color: lightgrey
+}
+
+nav ul li a:hover {
+  background-color: red;
+  color: white;
+}
+
+/* login button */
+
+.button {
+  height: 40px;
+  background-color: black;
+  border-radius: 15px;
+  float: right;
+  color: white;
+}
+.button a {
+  color: white;
+  text-decoration: none;     
+}
+
+.button:hover {
+  background-color: grey;
+}
+
+/* main section */
+
+.clubSection{
+  background-color: lightgrey;
+  height: 500px;
+}
+
+.clubTitle{
+  margin: 0px;
+  padding-top: 5px;
+  text-align: center;
+}

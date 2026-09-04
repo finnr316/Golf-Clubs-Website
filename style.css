@@ -1,0 +1,178 @@
+body {
+  width: 1000px;
+  margin: auto;
+  background-image: url('BackLogoWhite.png');
+}
+
+/* header */
+
+header {
+  background-color: #262626;
+  height: 50px;
+  padding-top: 10px;
+  padding-right: 2px;
+}
+
+#logo {
+  height: 50px;
+  width: 90px;
+  padding-left: 5px;
+}
+
+/* banner */
+
+.head1 {
+  height: 60px;
+  text-align: center;
+}
+
+h1 {
+  color: black;
+  padding-top: 20px;
+  margin: 0px;
+
+}
+
+#heading {
+  background-color: whitesmoke;
+  height: 150px;
+}
+
+/* nav */
+
+nav {
+  height: 40px;
+  margin-top: 0px;
+  padding-left: 0px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin-top: 0px;
+  padding-left: 0px;
+}
+
+nav ul li {
+  width: 166.6px;
+  float: left;
+  text-align: center;
+}
+
+nav ul li a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  color: black;
+  background-color: lightgrey
+}
+
+nav ul li a:hover {
+  background-color: red;
+  color: white;
+}
+
+/* image change */
+
+#slider {
+  width: 600px;
+  float: right;
+  height: 350px;
+}
+
+#slider {
+  overflow: hidden;
+}
+
+#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+}
+
+#slider figure img {
+  float: left;
+  width: 20%;
+}
+
+@keyframes slider {
+  0% {
+    left: 0
+  }
+
+  20% {
+    left: 0
+  }
+
+  25% {
+    left: -100%
+  }
+
+  45% {
+    left: -100%
+  }
+
+  50% {
+    left: -200%
+  }
+
+  70% {
+    left: -200%
+  }
+
+  75% {
+    left: -300%
+  }
+
+  95% {
+    left: -300%
+  }
+
+  100% {
+    left: -400%
+  }
+}
+
+/* login button */
+
+.button {
+  height: 40px;
+  background-color: black;
+  border-radius: 15px;
+  float: right;
+  color: white;
+}
+.button a {
+  color: white;
+  text-decoration: none;     
+}
+
+.button:hover {
+  background-color: grey;
+}
+
+
+
+/* Brands */
+
+#brands {
+  float: left;
+  width: 380px;
+  text-align: center;
+  background-color: lightgrey;
+  padding-bottom: 10px;
+}
+
+.brandHead {
+  margin: 0px;
+  padding-bottom: 20px;
+}
+
+.brandImg {
+  width: 150px;
+  height: 150px;
+  border: 2px solid;
+  border-color: black;
+  background-color: white;
+}
